@@ -1,0 +1,311 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ACCEUIL</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="Assets/CSS/bootstrap.css">
+<!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Ton CSS -->
+<link rel="stylesheet" href="Assets/CSS/style.css">
+
+<style>
+
+/* évite que la navbar fixe cache le contenu */
+body{
+padding-top:70px;
+background-color:lightslategray;
+}
+
+/* images toujours responsive */
+img{
+max-width:100%;
+height:auto;
+}
+
+.card{ 
+    transition: 0.30s;
+}
+.card:hover{
+transform: scale(1.1);
+} 
+
+.pt{ transition: 0.30s; }
+.pt:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.ecrit{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.curseur{
+cursor: pointer;
+}
+
+</style>
+
+</head>
+
+<body>  
+
+
+<!-- NAVBAR -->
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-dark bg-dark fixed-top fst-italic ecrit">
+
+<div class="container-fluid">
+
+<a class="navbar-brand text-warning" href="Index.html">Acceuil</a>
+
+        <li class="nav-item">
+          <a class="navbar-brand text-warning" href="A_propos.html">A propos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="navbar-brand   text-warning" href="Contact.html">Tarifs</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="navbar-brand  text-warning" href="#phase_TP">Pratique</a>
+        </li>
+<form class="d-flex mt-3">
+
+<input class="form-control me-2"
+type="search"
+placeholder="Recherche">
+
+<button class="btn btn-warning">
+Recherche
+</button>
+
+</form>
+
+</div>
+
+</nav> 
+
+
+<!-- ================= IMAGE HERO ================= -->
+
+<div class="container  ">
+
+<div class="row">
+
+<div class="col-12 col-md-6 col-lg-4">
+<!-- LOGO -->
+<img src="Assets/IMAGES/black-silhouette-icon-depicting-professional-260nw-2738481797.jpg"
+class="img-fluid rounded shadow w-25">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= TEXTE ================= -->
+
+<div class="container text-center bg-secondary text-white mt-4 p-3 rounded shadow-lg fst-italic ecrit">
+
+<h1 class="text-danger fw-bold">
+<span class="text-warning">LA MARINNE</span> DE L'EXECELLENCE 🛠
+</h1>
+
+<h6 class="text-danger fw-bold fst-italic">unité <span class=" text-warning">_travail_</span>succès</h6>
+
+<h4 class="fst-italic">
+Nous sommes un centre de formation professionnel <br>
+nous formons dans le domaine industriel
+</h4>
+
+</div>
+
+<!-- ================= CAROUSEL ================= -->
+
+<section class="mt-4 fst-italic ecrit fst-italic ecrit">
+
+    <div class="container   shadow-lg">
+
+        <div class="row d-flex justify-content-center ">
+
+            <div class="col-12 col-md-4 col-lg-8">
+
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="Assets/IMAGES/Formation-technique-maintenance.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>maintenance-industrielle</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Assets/IMAGES/INS.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Assets/IMAGES/MC.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ================= CARDS  ================= -->
+
+<header class="mt-4 fst-italic ecrit">
+
+    <div class="container ">
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4 shadow">
+
+                <div class="card h-100 shadow">
+
+                    <img src="Assets/IMAGES/INS.png" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold ">Maintenance Industrielle</h5>
+                    <p class="card-text fst-italic">
+                    La maintenance industrielle consiste à maintenir les équipements
+                    pour assurer leur bon fonctionnement.</p>
+                    <a href="#" class="btn btn-warning pt">En savoir plus</a>
+
+            </div>
+        </div>
+    </div>
+
+            <div class="col-12 col-md-6 col-lg-4 shadow">
+
+                <div class="card h-100 shadow">
+
+                    <img src="Assets/IMAGES/man-electrical-technician.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">Electro-technique</h5>
+
+                    <p class="card-text fst-italic">
+                        La formation en électrotechnique enseigne la maîtrise
+                        de l'énergie électrique et des installations. </p>
+                   
+                    <a href="#" class="btn btn-warning pt">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+
+            <div class="col-12 col-md-6 col-lg-4 shadow">
+
+                  <div class="card h-100 shadow">
+
+                      <img src="Assets/IMAGES/MC.png" class="card-img-top">
+
+                    <div class="card-body">
+
+                      <h5 class="card-title fw-bold">Mécanique Générale</h5>
+
+                      <p class="card-text ">
+                          La mécanique générale forme à l'usinage,
+                          la fabrication et l'entretien des systèmes mécaniques.</p>
+
+
+                      <a href="#" class="btn btn-warning pt">En savoir plus</a>
+
+                    </div>
+
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white mt-5 p-4 fst-italic ecrit">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-12 col-md-4 col-lg-4">          
+
+                <h4 class="text-warning fw-bold curseur">Localisation</h4>
+
+              <div class="text2 fst-italic "> 
+                <p>Brazzaville</p>
+                <p>Pointe-Noire</p>
+                <p>Oyo</p>
+                <p>Dolisie</p>  
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-4">
+
+                <h4 class="text-warning fw-bold curseur">Contact</h4>
+              <div class="text2 fst-italic "> 
+                <p>Appel: 064515539</p>
+                <p>WhatsApp: 067514316</p>
+                <p>Email: nichdieuil@email</p> </div>
+              </div>
+
+            <div class="col-12 col-lg-4 col-md-4">
+
+                <h4 class="text-warning fw-bold curseur">Nos partenaires</h4>
+
+              <div class="text3 fst-italic">
+
+                <p>Eni-Congo</p>
+                <p>Total-energie</p>
+                <p>SNPC</p>   </div>
+
+              </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="Assets/JS/bootstrap.bundle.js"></script>
+
+</body>
+</html>
